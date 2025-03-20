@@ -1,0 +1,75 @@
+import { Button } from "@/shared/ui/button";
+import { Separator } from "@/shared/ui/separator";
+import { Text } from "@/shared/ui/Text";
+import { ChevronRight } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
+import { FC } from "react";
+import Photo from "@/app/assets/Photo.jpeg";
+import { cn } from "@/shared/lib/cn";
+
+interface AboutMeProps {
+  className?: string;
+}
+
+export const AboutMe: FC<AboutMeProps> = ({ className }) => {
+  return (
+    <div className="flex lg:justify-center max-lg:flex-col items-center gap-10 sm:my-50 my-16">
+      <Image
+        src={Photo}
+        alt="photo"
+        className="rounded-xl w-[300px] h-auto"
+        objectFit="contain"
+      />
+      <div
+        className={cn(
+          className,
+          "xl:w-[35%] lg:w-[50%] sm:w-[70%] max-sm:px-10"
+        )}
+      >
+        <div className="space-y-1">
+          <Text variant="display-4">Malikov Abduaziz</Text>
+          <Text variant="body-2" className="text-gray-400">
+            Привет! Я занимаюсь видеомонтажем, превращая обычные кадры в
+            захватывающие истории. Моей главной задачей является создание
+            качественного и динамичного видеоконтента, который привлекает
+            внимание зрителей.
+          </Text>
+        </div>
+        <Link href={"/portfolio"} className="block sm:hidden mt-4">
+          <Button className="w-full">
+            Let's get started
+            <ChevronRight />
+          </Button>
+        </Link>
+        <Separator className="my-4" />
+        <div className="flex h-5 items-center space-x-4 text-sm">
+          <Link href={"/portfolio"} className="hidden sm:block">
+            <Button className="w-full">
+              Let's get started
+              <ChevronRight />
+            </Button>
+          </Link>
+          <Separator orientation="vertical" className="hidden sm:block" />
+          <Link href={"https://www.youtube.com/@mlkvazka1"} target="_blank">
+            <Text variant="body-1" className="text-gray-400 hover:text-white">
+              Youtube
+            </Text>
+          </Link>
+          <Separator orientation="vertical" />
+          <Link href={"https://www.instagram.com/mlkvazka"} target="_blank">
+            <Text variant="body-1" className="text-gray-400 hover:text-white">
+              Instagram
+            </Text>
+          </Link>
+          <Separator orientation="vertical" />
+          <Link href={"https://www.instagram.com/mlkvazka"} target="_blank">
+            <Text variant="body-1" className="text-gray-400 hover:text-white">
+              Telegram
+            </Text>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
