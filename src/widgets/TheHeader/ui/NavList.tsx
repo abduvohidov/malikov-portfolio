@@ -21,6 +21,7 @@ export const NavList: React.FC<NavListProps> = (props) => {
   const list = [
     { href: "/", label: "Main" },
     { href: "/portfolio", label: "Portfolio" },
+    { href: "/services", label: "Services" },
   ];
 
   function renderNavigationMenuLink() {
