@@ -5,7 +5,7 @@ import { ChevronRight, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
-// import Photo from "@/app/assets/Photo.jpeg";
+import Photo from "@/app/assets/Photo.jpeg";
 import { cn } from "@/shared/lib/cn";
 
 interface AboutMeProps {
@@ -15,12 +15,12 @@ interface AboutMeProps {
 export const AboutMe: FC<AboutMeProps> = ({ className }) => {
   return (
     <div className="flex lg:justify-center max-lg:flex-col items-center gap-10 sm:my-50">
-      {/* <Image
+      <Image
         src={Photo}
         alt="photo"
         className="rounded-xl w-[300px] h-auto"
         objectFit="contain"
-      /> */}
+      />
       <div
         className={cn(
           className,
