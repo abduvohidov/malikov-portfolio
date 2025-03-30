@@ -8,7 +8,7 @@ interface LogoProps {
 
 export const Logo: FC<LogoProps> = ({ className }) => {
   return (
-    <Text variant="code-inline-1" className={cn(className, "italic")}>
+    <Text variant="code-inline-2" className={cn(className, "italic")}>
       malikovabduaziz
     </Text>
   );

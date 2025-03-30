@@ -13,6 +13,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/shared/ui/sheet";
 import { Button } from "@/shared/ui/button";
 import { Menu } from "lucide-react";
 import { Logo } from "@/shared/ui/Logo";
+import { DialogTitle } from "@radix-ui/react-dialog";
 
 interface MobileNavListProps {
   className?: string;
@@ -33,10 +34,10 @@ export const MobileNavList: React.FC<MobileNavListProps> = (props) => {
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
         <Button variant="ghost" size="icon" className="sm:hidden">
-          <Menu />
+          <Menu className="!size-" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="px-6 py-4">
+      <SheetContent side="bottom" className="px-6 pt-4 pb-12">
         <Logo />
         <ul className="list-none">
           {list.map(({ href, label }) => (

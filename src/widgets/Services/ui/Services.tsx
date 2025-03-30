@@ -37,8 +37,10 @@ export const Services = () => {
       <Text variant="display-3" className="text-center">
         Services price list
       </Text>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-12">{renderPriceList()}</div>
-      <Card className="mx-auto p-0 mt-12 max-w-[90%] gap-0">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-12">
+        {renderPriceList()}
+      </div>
+      <Card className="mx-auto p-0 mt-12 2xl:max-w-[88%] xl:max-w-[92%] lg:max-w-[98%] md:max-w-[97%] sm:max-w-[360px] max-w-[360px]  gap-0">
         {renderAdditionalServicesList()}
       </Card>
     </div>
