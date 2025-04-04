@@ -8,7 +8,7 @@ interface FooterProps {
 }
 
 export default function TheFooter({
-  copyright = "© 2025 Mikołaj Dobrucki. All rights reserved",
+  copyright = "© malikovabduaziz. All rights reserved",
   className,
 }: FooterProps) {
   return (
