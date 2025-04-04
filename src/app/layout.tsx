@@ -3,8 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./styles/global.css";
 import { ThemeProvider } from "../shared/providers/ThemeProvider";
 import { TheHeader } from "@/widgets/TheHeader";
-import { NextIntlClientProvider, useLocale, useMessages } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
+import TheFooter from "@/widgets/TheFooter/ui/TheFooter";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,9 +38,10 @@ export default async function RootLayout({ children }: RootLayoutTypeProps) {
           enableSystem
           disableTransitionOnChange
         >
-          <TheHeader />
           <NextIntlClientProvider messages={messages}>
+            <TheHeader />
             {children}
+            <TheFooter />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
