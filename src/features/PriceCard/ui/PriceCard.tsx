@@ -21,14 +21,14 @@ export const PriceCard: React.FC<PriceCardProps> = (props) => {
         <Text variant="display-1">{tarifName}</Text>
       </CardHeader>
       <CardContent className="mb-12">
-        <ul className="text-gray-300">
+        <ul>
           {contents.map((item, index) => (
             <li key={index}>- {item}</li>
           ))}
         </ul>
       </CardContent>
       <CardFooter className="absolute bottom-5">
-        <Text variant="body-2" className="text-gray-300">
+        <Text variant="body-2">
           {t("services.prices.price")}
           <span className="text-blue-400 font-bold px-1">
             ${price.from} - ${price.to}

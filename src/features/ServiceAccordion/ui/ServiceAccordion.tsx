@@ -16,14 +16,14 @@ export const ServiceAccordion: React.FC<ServiceAccordionProps> = (props) => {
   return (
     <Accordion type="multiple" className="w-full">
       <AccordionItem value={title}>
-        <AccordionTrigger className="px-5 m-1 text-lg cursor-pointer hover:no-underline hover:text-blue-400 hover:bg-gray-900 data-[state=open]:text-blue-400 data-[state=open]:bg-gray-900">
+        <AccordionTrigger className="px-5 m-1 text-lg cursor-pointer hover:no-underline hover:text-blue-400 data-[state=open]:text-blue-400">
           {title}
         </AccordionTrigger>
         <AccordionContent>
           <ul className="px-5">
             {contents &&
               contents.map((item, index) => (
-                <li key={index} className="text-md text-gray-300">
+                <li key={index} className="text-md">
                   - {item}
                 </li>
               ))}
