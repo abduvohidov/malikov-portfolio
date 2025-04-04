@@ -1,6 +1,7 @@
 import { PortfolioContentsList } from "@/features/PortfolioContentsList";
 import { cn } from "@/shared/lib/cn";
 import { Text } from "@/shared/ui/Text";
+import { useTranslations } from "next-intl";
 import { FC } from "react";
 
 interface PortfolioProps {
@@ -8,11 +9,12 @@ interface PortfolioProps {
 }
 
 export const Portfolio: FC<PortfolioProps> = ({ className }) => {
+  const t = useTranslations("portfolio");
   return (
     <div className={cn(className, "sm:flex items-start justify-between")}>
       <div>
         <Text variant="display-3" className="max-sm:text-center mb-3">
-          Reels
+          {t("reels")}
         </Text>
         <div className="grid 2xl:grid-cols-2 grid-cols-1 2xl:gap-12 gap-5">
           <PortfolioContentsList
@@ -22,8 +24,11 @@ export const Portfolio: FC<PortfolioProps> = ({ className }) => {
         </div>
       </div>
       <div>
-        <Text variant="display-3" className="max-sm:text-center mb-3 max-sm:mt-16">
-          Content
+        <Text
+          variant="display-3"
+          className="max-sm:text-center mb-3 max-sm:mt-16"
+        >
+          {t("content")}
         </Text>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-5">
           <PortfolioContentsList

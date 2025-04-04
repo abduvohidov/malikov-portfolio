@@ -4,8 +4,10 @@ import { additionalServicesList } from "@/shared/constants/additionalServicesLis
 import { priceListData } from "@/shared/constants/priceList";
 import { Card } from "@/shared/ui/card";
 import { Text } from "@/shared/ui/Text";
+import { useTranslations } from "next-intl";
 
 export const Services = () => {
+  const t = useTranslations("services");
   function renderPriceList() {
     if (!priceListData) return;
 
@@ -35,7 +37,7 @@ export const Services = () => {
   return (
     <div>
       <Text variant="display-3" className="text-center">
-        Services price list
+        {t("title")}
       </Text>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-12">
         {renderPriceList()}

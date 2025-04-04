@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./styles/global.css";
 import { ThemeProvider } from "../shared/providers/ThemeProvider";
 import { TheHeader } from "@/widgets/TheHeader";
+import { NextIntlClientProvider, useLocale, useMessages } from "next-intl";
+import { getLocale, getMessages } from "next-intl/server";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,9 +23,11 @@ export const metadata: Metadata = {
 
 type RootLayoutTypeProps = Readonly<{ children: React.ReactNode }>;
 
-export default function RootLayout({ children }: RootLayoutTypeProps) {
+export default async function RootLayout({ children }: RootLayoutTypeProps) {
+  const locale = await getLocale();
+  const messages = await getMessages();
   return (
-    <html lang="en" className="dark">
+    <html lang={locale} className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -34,7 +38,9 @@ export default function RootLayout({ children }: RootLayoutTypeProps) {
           disableTransitionOnChange
         >
           <TheHeader />
-          {children}
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
         </ThemeProvider>
       </body>
     </html>

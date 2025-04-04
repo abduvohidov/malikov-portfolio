@@ -9,25 +9,21 @@ import {
   NavigationMenuLink,
   navigationMenuTriggerStyle,
 } from "@/shared/ui/navigation-menu";
+import { NavListType } from "@/shared/constants/navlist";
 
 interface NavListProps {
   className?: string;
+  navlist?: NavListType[];
 }
 
 export const NavList: React.FC<NavListProps> = (props) => {
-  const { className } = props;
+  const { className, navlist } = props;
   const pathname = usePathname();
 
-  const list = [
-    { href: "/", label: "Main" },
-    { href: "/portfolio", label: "Portfolio" },
-    { href: "/services", label: "Services" },
-  ];
-
   function renderNavigationMenuLink() {
-    if (!list) return;
+    if (!navlist) return;
 
-    return list.map(({ href, label }) => (
+    return navlist.map(({ href, label }) => (
       <NavigationMenuItem key={href} className="list-none">
         <Link href={href} legacyBehavior passHref>
           <NavigationMenuLink

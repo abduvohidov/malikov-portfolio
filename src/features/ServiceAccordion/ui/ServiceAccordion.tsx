@@ -21,11 +21,12 @@ export const ServiceAccordion: React.FC<ServiceAccordionProps> = (props) => {
         </AccordionTrigger>
         <AccordionContent>
           <ul className="px-5">
-            {contents.map((item, index) => (
-              <li key={index} className="text-md text-gray-300">
-                - {item}
-              </li>
-            ))}
+            {contents &&
+              contents.map((item, index) => (
+                <li key={index} className="text-md text-gray-300">
+                  - {item}
+                </li>
+              ))}
           </ul>
         </AccordionContent>
       </AccordionItem>

@@ -7,12 +7,14 @@ import Link from "next/link";
 import { FC } from "react";
 // import Photo from "@/app/assets/Photo.jpeg";
 import { cn } from "@/shared/lib/cn";
+import { useTranslations } from "next-intl";
 
 interface AboutMeProps {
   className?: string;
 }
 
 export const AboutMe: FC<AboutMeProps> = ({ className }) => {
+  const t = useTranslations("main");
   return (
     <div className="flex lg:justify-center max-lg:flex-col items-center gap-10 sm:my-50">
       {/* <Image
@@ -30,20 +32,20 @@ export const AboutMe: FC<AboutMeProps> = ({ className }) => {
         <div className="space-y-1">
           <Text variant="display-4">Malikov Abduaziz</Text>
           <Text variant="body-2" className="text-gray-400">
-            Hi! I am a video editor, turning ordinary footage into exciting
-            stories. My main goal is to create high-quality and dynamic video
-            content that attracts the attention of viewers.
+            {t("aboutme")}
           </Text>
         </div>
+
         <Link
           href={"https://t.me/malikovabduaziz"}
           className="block sm:hidden mt-4"
         >
           <Button className="w-full text-blue-400 hover:bg-blue-400 hover:text-white">
             <MessageCircle />
-            Chat with me
+            {t("chatWithMe")}
           </Button>
         </Link>
+        
         <Separator className="my-4" />
         <div className="flex h-5 items-center space-x-4 text-sm">
           <Link
@@ -52,7 +54,7 @@ export const AboutMe: FC<AboutMeProps> = ({ className }) => {
           >
             <Button className="w-full text-blue-400 hover:bg-blue-400 hover:text-white">
               <MessageCircle />
-              Chat with me
+              {t("chatWithMe")}
             </Button>
           </Link>
           <Separator orientation="vertical" className="hidden sm:block" />
