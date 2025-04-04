@@ -26,10 +26,10 @@ export const MobileNavList: React.FC<MobileNavListProps> = (props) => {
       <DialogTitle></DialogTitle>
       <SheetTrigger asChild>
         <Button variant="ghost" size="icon" className="lg:hidden">
-          <Menu className="!size-4" />
+          <Menu className="!size-6" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="bottom" className="px-6 pt-4 pb-12">
+      <SheetContent side="bottom" className="px-6 pt-4 pb-12 opacity-90">
         <Logo />
         <div className="flex items-center gap-5">
           <LangSwitch locale={locale} />

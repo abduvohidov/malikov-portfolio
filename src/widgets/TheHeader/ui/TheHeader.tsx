@@ -13,7 +13,7 @@ export const TheHeader: FC = async () => {
   const locale = await getLocale();
 
   return (
-    <header>
+    <header className="fixed top-0 left-0 w-full bg-black opacity-90 z-10 shadow-md">
       <div className="container mx-auto pt-5 px-10">
         <div className="flex justify-between items-center">
           <Logo />
