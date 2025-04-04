@@ -3,54 +3,54 @@ interface AdditionalServicesListType {
   services: string[];
 }
 
-export const additionalServicesList: AdditionalServicesListType[] = [
+export const additionalServicesList = (t: (key: string) => string): AdditionalServicesListType[] => [
   {
-    category: "Sound Design & Audio Editing",
+    category: t("additional.sounDesignAndAudioEditing.title"),
     services: [
-      "Noise reduction and audio cleanup (depends on noise level in original video)",
-      "Creating cinematic soundscapes",
-      "Synching audio with visuals",
+      t("additional.sounDesignAndAudioEditing.infolist.list1"),
+      t("additional.sounDesignAndAudioEditing.infolist.list2"),
+      t("additional.sounDesignAndAudioEditing.infolist.list3"),
     ],
   },
   {
-    category: "Creative Effects",
+    category: t("additional.creativeEffect.title"),
     services: [
-      "Glitch effects",
-      "Light leaks & lens flares",
-      "3D text animation",
-      "Double exposure effects",
-      "VHS or retro film looks",
-      "AI-powered text-to-video transitions",
+      t("additional.creativeEffect.infolist.list1"),
+      t("additional.creativeEffect.infolist.list2"),
+      t("additional.creativeEffect.infolist.list3"),
+      t("additional.creativeEffect.infolist.list4"),
+      t("additional.creativeEffect.infolist.list5"),
+      t("additional.creativeEffect.infolist.list6"),
     ],
   },
   {
-    category: "Social Media & Short-Form Video Editing",
+    category: t("additional.socialMediaAndShortForm.title"),
     services: [
-      "Optimizing vertical video for Instagram Reels, TikTok, and YouTube Shorts",
-      "Captions with auto-sync",
-      "High-energy cuts & beat syncing with music",
-      "Meme-style editing (zoom-ins, text overlays, reaction edits)",
-      "Loop-friendly edits for engagement",
+      t("additional.socialMediaAndShortForm.infolist.list1"),
+      t("additional.socialMediaAndShortForm.infolist.list2"),
+      t("additional.socialMediaAndShortForm.infolist.list3"),
+      t("additional.socialMediaAndShortForm.infolist.list4"),
+      t("additional.socialMediaAndShortForm.infolist.list5"),
     ],
   },
   {
-    category: "AI & Automation-Based Editing",
+    category: t("additional.aiAndAutomation.title"),
     services: [
-      "AI-based auto-cutting and summarization",
-      "Speech-to-text auto-captioning",
-      "AI background removal (without green screen)",
-      "AI-driven object tracking and replacement",
+      t("additional.aiAndAutomation.infolist.list1"),
+      t("additional.aiAndAutomation.infolist.list2"),
+      t("additional.aiAndAutomation.infolist.list3"),
+      t("additional.aiAndAutomation.infolist.list4"),
     ],
   },
   {
-    category: "Freelance & Commercial Editing",
+    category: t("additional.freelanceAndCommercial.title"),
     services: [
-      "Editing wedding videos",
-      "Corporate videos and advertisements",
-      "YouTube video editing for influencers",
-      "Podcast video production",
-      "Documentary-style editing",
-      "Real estate and travel videos",
+      t("additional.freelanceAndCommercial.infolist.list1"),
+      t("additional.freelanceAndCommercial.infolist.list2"),
+      t("additional.freelanceAndCommercial.infolist.list3"),
+      t("additional.freelanceAndCommercial.infolist.list4"),
+      t("additional.freelanceAndCommercial.infolist.list5"),
+      t("additional.freelanceAndCommercial.infolist.list6"),
     ],
   },
 ];

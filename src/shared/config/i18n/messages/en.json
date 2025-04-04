@@ -17,36 +17,36 @@
     "prices": {
       "basic": {
         "title": "Basic Editing",
-        "infolist": [
-          "Cutting and trimming clips",
-          "Merging multiple clips",
-          "Adding transitions",
-          "Adjusting speed (slow motion, fast motion, time remapping)",
-          "Basic color correction"
-        ]
+        "infolist": {
+          "list1": "Cutting and trimming clips",
+          "list2": "Merging multiple clips",
+          "list3": "Adding transitions",
+          "list4": "Adjusting speed (slow motion, fast motion, time remapping)",
+          "list5": "Basic color correction"
+        }
       },
-      "intermadiate": {
+      "intermediate": {
         "title": "Intermediate Editing",
-        "infolist": [
-          "Adding background music and sound effects",
-          "Applying smooth jump cuts",
-          "Creating split-screen effects",
-          "Adding text and subtitles",
-          "Working with keyframes for animation",
-          "Using green screen (chroma keying)",
-          "Basic motion tracking",
-          "Stabilizing shaky footage"
-        ]
+        "infolist": {
+          "list1": "Adding background music and sound effects",
+          "list2": "Applying smooth jump cuts",
+          "list3": "Creating split-screen effects",
+          "list4": "Adding text and subtitles",
+          "list5": "Working with keyframes for animation",
+          "list6": "Using green screen (chroma keying)",
+          "list7": "Basic motion tracking",
+          "list8": "Stabilizing shaky footage"
+        }
       },
       "advanced": {
         "title": "Advanced Editing",
-        "infolist": [
-          "3D camera tracking",
-          "Rotoscoping (cutting out subjects from background)",
-          "Parallax effects",
-          "Dynamic speed ramping",
-          "Frame-by-frame compositing"
-        ]
+        "infolist": {
+          "list1": "3D camera tracking",
+          "list2": "Rotoscoping (cutting out subjects from background)",
+          "list3": "Parallax effects",
+          "list4": "Dynamic speed ramping",
+          "list5": "Frame-by-frame compositing"
+        }
       },
       "price": "Price",
       "oneMinute": "for 1 minute video"
@@ -54,52 +54,52 @@
     "additional": {
       "sounDesignAndAudioEditing": {
         "title": "Sound Design & Audio Editing",
-        "infolist": [
-          "Noise reduction and audio cleanup (depends on noise level in original video)",
-          "Creating cinematic soundscapes",
-          "Synching audio with visuals"
-        ]
+        "infolist": {
+          "list1": "Noise reduction and audio cleanup (depends on noise level in original video)",
+          "list2": "Creating cinematic soundscapes",
+          "list3": "Synching audio with visuals"
+        }
       },
       "creativeEffect": {
         "title": "Creative Effect",
-        "infolist": [
-          "Glitch effects",
-          "Light leaks & lens flares",
-          "3D text animation",
-          "Double exposure effects",
-          "VHS or retro film looks",
-          "AI-powered text-to-video transitions"
-        ]
+        "infolist": {
+          "list1": "Glitch effects",
+          "list2": "Light leaks & lens flares",
+          "list3": "3D text animation",
+          "list4": "Double exposure effects",
+          "list5": "VHS or retro film looks",
+          "list6": "AI-powered text-to-video transitions"
+        }
       },
       "socialMediaAndShortForm": {
         "title": "Social media & short form video editing",
-        "infolist": [
-          "Optimizing vertical video for Instagram Reels, TikTok, and YouTube Shorts",
-          "Captions with auto-sync",
-          "High-energy cuts & beat syncing with music",
-          "Meme-style editing (zoom-ins, text overlays, reaction edits)",
-          "Loop-friendly edits for engagement"
-        ]
+        "infolist": {
+          "list1": "Optimizing vertical video for Instagram Reels, TikTok, and YouTube Shorts",
+          "list2": "Captions with auto-sync",
+          "list3": "High-energy cuts & beat syncing with music",
+          "list4": "Meme-style editing (zoom-ins, text overlays, reaction edits)",
+          "list5": "Loop-friendly edits for engagement"
+        }
       },
       "aiAndAutomation": {
         "title": "Ai & automation-based editing",
-        "infolist": [
-          "AI-based auto-cutting and summarization",
-          "Speech-to-text auto-captioning",
-          "AI background removal (without green screen)",
-          "AI-driven object tracking and replacement"
-        ]
+        "infolist": {
+          "list1": "AI-based auto-cutting and summarization",
+          "list2": "Speech-to-text auto-captioning",
+          "list3": "AI background removal (without green screen)",
+          "list4": "AI-driven object tracking and replacement"
+        }
       },
       "freelanceAndCommercial": {
         "title": "Freelance & commercial Editing",
-        "infolist": [
-          "Editing wedding videos",
-          "Corporate videos and advertisements",
-          "YouTube video editing for influencers",
-          "Podcast video production",
-          "Documentary-style editing",
-          "Real estate and travel videos"
-        ]
+        "infolist": {
+          "list1": "Editing wedding videos",
+          "list2": "Corporate videos and advertisements",
+          "list3": "YouTube video editing for influencers",
+          "list4": "Podcast video production",
+          "list5": "Documentary-style editing",
+          "list6": "Real estate and travel videos"
+        }
       }
     }
   }

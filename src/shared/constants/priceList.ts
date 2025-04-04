@@ -7,50 +7,54 @@ interface PriceListDataType {
   };
 }
 
-export const priceListData: Array<PriceListDataType> = [
-  {
-    title: "Basic Editing",
-    content: [
-      "Cutting and trimming clips",
-      "Merging multiple clips",
-      "Adding transitions",
-      "Adjusting speed (slow motion, fast motion, time remapping)",
-      "Basic color correction",
-    ],
-    price: {
-      from: 7,
-      to: 10,
+export const priceListData = (
+  t: (key: string) => string
+): PriceListDataType[] => {
+  return [
+    {
+      title: t("prices.basic.title"),
+      content: [
+        t("prices.basic.infolist.list1"),
+        t("prices.basic.infolist.list2"),
+        t("prices.basic.infolist.list3"),
+        t("prices.basic.infolist.list4"),
+        t("prices.basic.infolist.list5"),
+      ],
+      price: {
+        from: 7,
+        to: 10,
+      },
     },
-  },
-  {
-    title: "Intermediate Editing  ",
-    content: [
-      "Adding background music and sound effects",
-      "Applying smooth jump cuts",
-      "Creating split-screen effects",
-      "Adding text and subtitles",
-      "Working with keyframes for animation",
-      "Using green screen (chroma keying)",
-      "Basic motion tracking",
-      "Stabilizing shaky footage",
-    ],
-    price: {
-      from: 15,
-      to: 25,
+    {
+      title: t("prices.intermediate.title"),
+      content: [
+        t("prices.intermediate.infolist.list1"),
+        t("prices.intermediate.infolist.list2"),
+        t("prices.intermediate.infolist.list3"),
+        t("prices.intermediate.infolist.list4"),
+        t("prices.intermediate.infolist.list5"),
+        t("prices.intermediate.infolist.list6"),
+        t("prices.intermediate.infolist.list7"),
+        t("prices.intermediate.infolist.list8"),
+      ],
+      price: {
+        from: 15,
+        to: 25,
+      },
     },
-  },
-  {
-    title: "Advanced Editing",
-    content: [
-      "3D camera tracking",
-      "Rotoscoping (cutting out subjects from background)",
-      "Parallax effects",
-      "Dynamic speed ramping",
-      "Frame-by-frame compositing",
-    ],
-    price: {
-      from: 35,
-      to: 45,
+    {
+      title: t("prices.advanced.title"),
+      content: [
+        t("prices.advanced.infolist.list1"),
+        t("prices.advanced.infolist.list2"),
+        t("prices.advanced.infolist.list3"),
+        t("prices.advanced.infolist.list4"),
+        t("prices.advanced.infolist.list5"),
+      ],
+      price: {
+        from: 35,
+        to: 45,
+      },
     },
-  },
-];
+  ];
+};
