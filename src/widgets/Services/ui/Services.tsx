@@ -15,7 +15,7 @@ export const Services = () => {
     return priceListData(t).map((item, index) => (
       <PriceCard
         key={index}
-        className="max-w-[360px] lg:w-[320px] mx-auto max-lg:mt-6"
+        className="max-w-[360px] lg:w-[320px] min-h-[440px] mx-auto max-lg:mt-6"
         tarifName={item.title}
         contents={item.content}
         price={item.price}

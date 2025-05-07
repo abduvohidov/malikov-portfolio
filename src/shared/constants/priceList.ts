@@ -21,8 +21,8 @@ export const priceListData = (
         t("prices.basic.infolist.list5"),
       ],
       price: {
-        from: 7,
-        to: 10,
+        from: 10,
+        to: 15,
       },
     },
     {
@@ -38,8 +38,8 @@ export const priceListData = (
         t("prices.intermediate.infolist.list8"),
       ],
       price: {
-        from: 15,
-        to: 25,
+        from: 30,
+        to: 40,
       },
     },
     {
@@ -52,8 +52,8 @@ export const priceListData = (
         t("prices.advanced.infolist.list5"),
       ],
       price: {
-        from: 35,
-        to: 45,
+        from: 50,
+        to: 60,
       },
     },
   ];

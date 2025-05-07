@@ -64,7 +64,7 @@ export const AboutMe: FC<AboutMeProps> = ({ className }) => {
             </Text>
           </Link>
           <Separator orientation="vertical" />
-          <Link href={"https://www.instagram.com/mlkvazka"} target="_blank">
+          <Link href={"https://www.instagram.com/azka.aedits?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target="_blank">
             <Text variant="body-1" className="text-gray-400 hover:text-white">
               Instagram
             </Text>

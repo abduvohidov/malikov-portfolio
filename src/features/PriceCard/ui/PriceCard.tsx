@@ -28,13 +28,16 @@ export const PriceCard: React.FC<PriceCardProps> = (props) => {
         </ul>
       </CardContent>
       <CardFooter className="absolute bottom-5">
-        <Text variant="body-2">
-          {t("services.prices.price")}
-          <span className="text-blue-400 font-bold px-1">
-            ${price.from} - ${price.to}
-          </span>
-          {t("services.prices.oneMinute")}
-        </Text>
+        <div className="flex flex-col">
+          <Text variant="body-2" className="mb-1">
+            {t("services.prices.price")}
+            <span className="text-blue-400 font-bold px-1">
+              ${price.from} - ${price.to}
+            </span>
+            {t("services.prices.oneMinute")}
+          </Text>
+          <Text className="text-gray-500">{t("services.allRatesInUsd")}</Text>
+        </div>
       </CardFooter>
     </Card>
   );
