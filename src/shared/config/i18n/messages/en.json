@@ -15,38 +15,91 @@
   "services": {
     "title": "Services price list",
     "allRatesInUsd": "All rate are in USD",
+    "discountInfo": "Get a $10 discount when you create at least 10 short-form videos per month — that’s $100 in profit!",
+    "includes": "Inludes",
+    "turnaround": "Turnaround",
+    "revisions": "Revisions",
+    "hours": "hours",
+    "roundIncluded": "round included",
     "prices": {
       "basic": {
         "title": "Basic Editing",
+        "bestFor": "Simple reels, talking head clips, daily vlogs, or content repurposing.",
+        "discountInfo": "*Get a $10 discount when you create at least 10 short-form videos per month — that’s $100 in profit!",
         "infolist": {
-          "list1": "Cutting and trimming clips",
-          "list2": "Merging multiple clips",
-          "list3": "Adding transitions",
-          "list4": "Adjusting speed (slow motion, fast motion, time remapping)",
-          "list5": "Basic color correction"
+          "list1": "Clean cuts & smooth transitions",
+          "list2": "Simple animated text or captions",
+          "list3": "Basic royalty-free background music",
+          "list4": "Light color and audio correction",
+          "list5": "1:1 or 9:16 format export (platform-ready)"
         }
       },
       "intermediate": {
         "title": "Intermediate Editing",
+        "bestFor": "Social media creators, influencers, or personal brand content that needs extra polish and engagement",
+        "discountInfo": "*Get a $10 discount when you create at least 10 short-form videos per month — that’s $100 in profit!",
         "infolist": {
-          "list1": "Adding background music and sound effects",
-          "list2": "Applying smooth jump cuts",
-          "list3": "Creating split-screen effects",
-          "list4": "Adding text and subtitles",
-          "list5": "Working with keyframes for animation",
-          "list6": "Using green screen (chroma keying)",
-          "list7": "Basic motion tracking",
-          "list8": "Stabilizing shaky footage"
+          "list1": "Everything in the Basic package",
+          "list2": "Fast-paced, dynamic cutting for retention",
+          "list3": "Custom text animations & callouts",
+          "list4": "B-roll integration with effects (stock or provided)",
+          "list5": "B-roll integration with medium level motion graphics.",
+          "list6": "Sound effects synced with visuals",
+          "list7": "Basic color grading to enhance look (if needed)",
+          "list8": "Attention-grabbing hooks (0–3 seconds)"
         }
       },
       "advanced": {
         "title": "Advanced Editing",
+        "bestFor": "Viral-style edits, brand content, cinematic or story-driven reels, or ad creatives.",
+        "discountInfo": "*Get a $10 discount when you create at least 10 short-form videos per month — that’s $100 in profit!",
         "infolist": {
-          "list1": "3D camera tracking",
-          "list2": "Rotoscoping (cutting out subjects from background)",
-          "list3": "Parallax effects",
-          "list4": "Dynamic speed ramping",
-          "list5": "Frame-by-frame compositing"
+          "list1": "Everything in the Intermediate package",
+          "list2": "Cinematic or trend-based editing style",
+          "list3": "Motion graphics and zoom/pan effects",
+          "list4": "Manual subtitles with custom brand font/colors",
+          "list5": "Platform-optimized versions (e.g., IG Reels + TikTok + YT Shorts)",
+          "list6": "Final export + source file delivery (on request)"
+        }
+      },
+      "basicLong": {
+        "title": "Basic Editing",
+        "bestFor": "",
+        "discountInfo": "*Get a $45 discount when you create at least 10 videos per month — that’s $50 in profit!",
+        "infolist": {
+          "list1": "Simple cuts and transitions",
+          "list2": "Animated text",
+          "list3": "Basic footage for B-roll (stock or client-provided)",
+          "list4": "Background music"
+        }
+      },
+      "intermediateLong": {
+        "title": "Intermediate Editing",
+        "bestFor": "",
+        "discountInfo": "*If we are going to make at least 4 video a month it will be $225 with a discount. So you are in $100 profit.",
+        "infolist": {
+          "list1": "All features from the Basic Package",
+          "list2": "Seamless motion graphics & advanced animated text",
+          "list3": "Custom transitions and dynamic cuts",
+          "list4": "Enhanced B-roll integration (including overlays & effects)",
+          "list5": "Light color grading for mood and consistency",
+          "list6": "Enhanced sound design & synced effects",
+          "list7": "Zooms, pans, speed ramps, and other movement effects",
+          "list8": "Custom intro/outro branding (if provided)"
+        }
+      },
+      "advancedLong": {
+        "title": "Advanced Editing",
+        "bestFor": "",
+        "discountInfo": "*If we are going to make at least 4 video a month it will be $350 with a discount. So you are in $200 profit.",
+        "infolist": {
+          "list1": "Everything in the Intermediate Package",
+          "list2": "Story-driven editing for emotional or viral impact",
+          "list3": "On-screen infographics, charts, or data visualization",
+          "list4": "Custom-made intro/outro animations (logo reveals, if provided)",
+          "list5": "Seamless integration of voiceovers, sound effects",
+          "list6": "Captions with brand font/colors (manual or styled subtitles)",
+          "list7": "Project file delivery (optional, on request)"
         }
       },
       "price": "Price",
@@ -79,7 +132,8 @@
           "list2": "Captions with auto-sync",
           "list3": "High-energy cuts & beat syncing with music",
           "list4": "Meme-style editing (zoom-ins, text overlays, reaction edits)",
-          "list5": "Loop-friendly edits for engagement"
+          "list5": "Loop-friendly edits for engagement",
+          "list6": "Professional editing related to your niche"
         }
       },
       "aiAndAutomation": {

@@ -31,6 +31,7 @@ export const additionalServicesList = (t: (key: string) => string): AdditionalSe
       t("additional.socialMediaAndShortForm.infolist.list3"),
       t("additional.socialMediaAndShortForm.infolist.list4"),
       t("additional.socialMediaAndShortForm.infolist.list5"),
+      t("additional.socialMediaAndShortForm.infolist.list6"),
     ],
   },
   {

@@ -1,5 +1,6 @@
 import { PriceCard } from "@/features/PriceCard";
 import { ServiceAccordion } from "@/features/ServiceAccordion";
+import { TabsServices } from "@/features/TabsServices";
 import { additionalServicesList } from "@/shared/constants/additionalServicesList";
 import { priceListData } from "@/shared/constants/priceList";
 import { Card } from "@/shared/ui/card";
@@ -9,18 +10,44 @@ import { useTranslations } from "next-intl";
 export const Services = () => {
   const t = useTranslations("services");
 
-  function renderPriceList() {
+  function renderShortFormVideosPriceList() {
     if (!priceListData) return;
 
-    return priceListData(t).map((item, index) => (
-      <PriceCard
-        key={index}
-        className="max-w-[360px] lg:w-[320px] min-h-[440px] mx-auto max-lg:mt-6"
-        tarifName={item.title}
-        contents={item.content}
-        price={item.price}
-      />
-    ));
+    return priceListData(t)
+      .slice(0, 3)
+      .map((item, index) => (
+        <PriceCard
+          className="mx-auto max-lg:mt-6 w-full"
+          key={index}
+          title={item.title}
+          content={item.content}
+          price={item.price}
+          description={item?.description}
+          bestFor={item?.bestFor}
+          turnaround={item?.turnaround}
+          revisions={item?.revisions}
+        />
+      ));
+  }
+
+  function renderLongFormVideosPriceList() {
+    if (!priceListData) return;
+
+    return priceListData(t)
+      .slice(3, 6)
+      .map((item, index) => (
+        <PriceCard
+          className="mx-auto max-lg:mt-6 w-full"
+          key={index}
+          title={item.title}
+          content={item.content}
+          price={item.price}
+          description={item?.description}
+          bestFor={item?.bestFor}
+          turnaround={item?.turnaround}
+          revisions={item?.revisions}
+        />
+      ));
   }
 
   function renderAdditionalServicesList() {
@@ -40,10 +67,11 @@ export const Services = () => {
       <Text variant="display-3" className="text-center">
         {t("title")}
       </Text>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-12">
-        {renderPriceList()}
-      </div>
-      <Card className="mx-auto p-0 mt-12 2xl:max-w-[91%] xl:max-w-[96%] lg:max-w-[98%] md:max-w-[97%] sm:max-w-[360px] max-w-[360px]  gap-0">
+      <TabsServices
+        shortVideosContent={renderShortFormVideosPriceList()}
+        longVideosContent={renderLongFormVideosPriceList()}
+      />
+      <Card className="mx-auto p-0 mt-8 gap-0">
         {renderAdditionalServicesList()}
       </Card>
     </div>
