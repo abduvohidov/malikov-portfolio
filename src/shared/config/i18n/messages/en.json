@@ -10,7 +10,9 @@
   },
   "portfolio": {
     "content": "Contents",
-    "reels": "Reels"
+    "reels": "Reels",
+    "portfolio": "Portfolio",
+    "toSocialLinks": "If you are interested in checking out my portfolio, please follow the links below"
   },
   "services": {
     "title": "Services price list",

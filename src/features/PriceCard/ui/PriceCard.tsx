@@ -34,9 +34,6 @@ export const PriceCard: React.FC<PriceCardProps> = (props) => {
         <Text variant="display-1" className="text-primary">
           {title}
         </Text>
-        <div className="h-[60px]">
-          <Text variant="body-1">{bestFor}</Text>
-        </div>
         <div className="w-full h-[1px] bg-secondary mt-2" />
       </CardHeader>
 
