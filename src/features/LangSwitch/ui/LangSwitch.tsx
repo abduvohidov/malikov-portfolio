@@ -34,6 +34,7 @@ export const LangSwitch: FC<LangSwitchProps> = ({ className, locale }) => {
         <SelectContent>
           <SelectItem value="en">English</SelectItem>
           <SelectItem value="ru">Русский</SelectItem>
+          <SelectItem value="uz">Uzbek</SelectItem>
         </SelectContent>
       </Select>
     </div>

@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Send, Youtube } from "lucide-react";
+import { Instagram, Send, X, Youtube } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { ReactNode } from "react";
 
@@ -21,7 +21,7 @@ export function useSocials(): { data: SocialModel[] } {
     },
     {
       text: "Telegram",
-      link: "https://t.me/azkaedits",
+      link: "https://t.me/azkavisualz",
       icon: <Send className={iconClass} />,
     },
     {
@@ -30,9 +30,9 @@ export function useSocials(): { data: SocialModel[] } {
       icon: <Youtube className={iconClass} />,
     },
     {
-      text: "Linkedin",
+      text: "X",
       link: "/link-linkedin",
-      icon: <Linkedin className={iconClass} />,
+      icon: <X className={iconClass} />,
     },
   ];
 

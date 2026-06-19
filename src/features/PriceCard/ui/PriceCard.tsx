@@ -66,7 +66,7 @@ export const PriceCard: React.FC<PriceCardProps> = (props) => {
           <Text variant="body-2" className="mb-1">
             {t("services.prices.price")}
             <span className="text-blue-300 font-bold px-1">
-              ${price.from} - ${price.to}
+              ${price.from}{price.to ? - price.to : ""}
             </span>
             {t("services.prices.oneMinute")}
           </Text>

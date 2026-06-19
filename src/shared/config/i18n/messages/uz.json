@@ -1,0 +1,163 @@
+{
+  "header": {
+    "main": "Asosiy",
+    "portfolio": "Portfolio",
+    "services": "Xizmatlar"
+  },
+  "main": {
+    "aboutme": "Salom! Men video montajchiman, oddiy videolarni qiziqarli hikoyalarga aylantiraman. Mening asosiy maqsadim — tomoshabinlar e'tiborini tortadigan sifatli va dinamik video kontent yaratish.",
+    "chatWithMe": "Men bilan bog‘laning"
+  },
+  "portfolio": {
+    "content": "Kontentlar",
+    "reels": "Reels",
+    "portfolio": "Portfolio",
+    "toSocialLinks": "Agar portfoliom bilan tanishmoqchi bo‘lsangiz, quyidagi havolalar orqali o‘ting"
+  },
+  "services": {
+    "title": "Xizmatlar narxlari",
+    "allRatesInUsd": "Barcha narxlar AQSh dollarida",
+    "discountInfo": "Oyiga kamida 10 ta qisqa video buyurtma qilsangiz, har bir videoga $10 chegirma olasiz — jami $100 tejaysiz!",
+    "includes": "O‘z ichiga oladi",
+    "turnaround": "Tayyorlash muddati",
+    "revisions": "Tuzatishlar",
+    "hours": "soat",
+    "roundIncluded": "ta tuzatish kiritilgan",
+    "prices": {
+      "basic": {
+        "title": "Oddiy montaj",
+        "bestFor": "Oddiy reels, gapiruvchi videolar, kundalik vloglar yoki mavjud kontentni qayta ishlash uchun.",
+        "discountInfo": "*Oyiga kamida 10 ta qisqa video buyurtma qilsangiz, har bir videoga $10 chegirma olasiz — jami $100 tejaysiz!",
+        "infolist": {
+          "list1": "Toza kesishlar va silliq o'tishlar",
+          "list2": "Oddiy animatsiyali matn yoki subtitrlar",
+          "list3": "Mualliflik huquqisiz fon musiqasi",
+          "list4": "Yengil rang va audio korreksiyasi",
+          "list5": "1:1 yoki 9:16 formatida eksport (platformaga tayyor)"
+        }
+      },
+      "intermediate": {
+        "title": "O‘rta darajadagi montaj",
+        "bestFor": "Qo‘shimcha sifat va jalb qiluvchanlik talab qiladigan ijtimoiy tarmoq kontent yaratuvchilari, influencerlar va shaxsiy brendlar uchun.",
+        "discountInfo": "*Oyiga kamida 10 ta qisqa video buyurtma qilsangiz, har bir videoga $10 chegirma olasiz — jami $100 tejaysiz!",
+        "infolist": {
+          "list1": "Oddiy paketdagi barcha imkoniyatlar",
+          "list2": "Tomoshabinni ushlab qolish uchun tezkor va dinamik montaj",
+          "list3": "Moslashtirilgan matn animatsiyalari va ajratib ko‘rsatishlar",
+          "list4": "Effektlar bilan B-roll integratsiyasi (stok yoki taqdim etilgan)",
+          "list5": "O‘rta darajadagi motion grafikalar bilan B-roll integratsiyasi",
+          "list6": "Vizual bilan sinxronlashtirilgan ovoz effektlari",
+          "list7": "Ko‘rinishni yaxshilash uchun asosiy color grading",
+          "list8": "Diqqatni tortuvchi hooklar (0–3 soniya)"
+        }
+      },
+      "advanced": {
+        "title": "Professional montaj",
+        "bestFor": "Viral uslubdagi videolar, brend kontenti, kinematik yoki hikoyaga asoslangan reels va reklama roliklari uchun.",
+        "discountInfo": "*Oyiga kamida 10 ta qisqa video buyurtma qilsangiz, har bir videoga $10 chegirma olasiz — jami $100 tejaysiz!",
+        "infolist": {
+          "list1": "O‘rta paketdagi barcha imkoniyatlar",
+          "list2": "Kinematik yoki trendga asoslangan montaj uslubi",
+          "list3": "Motion grafika va zoom/pan effektlari",
+          "list4": "Brend shriftlari va ranglari bilan qo‘lda tayyorlangan subtitrlar",
+          "list5": "Platformaga moslashtirilgan versiyalar (masalan, IG Reels + TikTok + YT Shorts)",
+          "list6": "Tayyor video va loyiha fayllarini topshirish (so‘rov bo‘yicha)"
+        }
+      },
+      "basicLong": {
+        "title": "Oddiy montaj",
+        "bestFor": "",
+        "discountInfo": "*Oyiga kamida 10 ta video buyurtma qilsangiz, $45 chegirma olasiz va $50 tejaysiz!",
+        "infolist": {
+          "list1": "Oddiy kesishlar va o'tishlar",
+          "list2": "Animatsiyali matn",
+          "list3": "B-roll uchun oddiy videolar (stok yoki mijoz tomonidan berilgan)",
+          "list4": "Fon musiqasi"
+        }
+      },
+      "intermediateLong": {
+        "title": "O‘rta darajadagi montaj",
+        "bestFor": "",
+        "discountInfo": "*Agar oyiga kamida 4 ta video tayyorlasak, chegirma bilan narx $225 bo‘ladi. Shunday qilib, siz $100 tejaysiz.",
+        "infolist": {
+          "list1": "Oddiy paketdagi barcha imkoniyatlar",
+          "list2": "Mukammal motion grafika va rivojlangan animatsiyali matnlar",
+          "list3": "Moslashtirilgan o'tishlar va dinamik kesishlar",
+          "list4": "Kuchaytirilgan B-roll integratsiyasi (overlay va effektlar bilan)",
+          "list5": "Kayfiyat va uslub birligini ta'minlash uchun yengil color grading",
+          "list6": "Kuchaytirilgan sound design va sinxron effektlar",
+          "list7": "Zoom, pan, speed ramp va boshqa harakat effektlari",
+          "list8": "Brend intro/outro (agar taqdim etilgan bo‘lsa)"
+        }
+      },
+      "advancedLong": {
+        "title": "Professional montaj",
+        "bestFor": "",
+        "discountInfo": "*Agar oyiga kamida 4 ta video tayyorlasak, chegirma bilan narx $350 bo‘ladi. Shunday qilib, siz $200 tejaysiz.",
+        "infolist": {
+          "list1": "O‘rta paketdagi barcha imkoniyatlar",
+          "list2": "Emotsional yoki viral ta'sir uchun hikoyaga asoslangan montaj",
+          "list3": "Ekrandagi infografikalar, diagrammalar va ma'lumotlar vizualizatsiyasi",
+          "list4": "Maxsus intro/outro animatsiyalari (agar logo taqdim etilgan bo‘lsa)",
+          "list5": "Ovoz yozuvlari va ovoz effektlarining mukammal integratsiyasi",
+          "list6": "Brend shriftlari va ranglari bilan subtitrlar",
+          "list7": "Loyiha fayllarini topshirish (ixtiyoriy, so‘rov bo‘yicha)"
+        }
+      },
+      "price": "Narx",
+      "oneMinute": "1 daqiqalik video uchun"
+    },
+    "additional": {
+      "sounDesignAndAudioEditing": {
+        "title": "Sound Design va Audio Montaj",
+        "infolist": {
+          "list1": "Shovqinni kamaytirish va audio tozalash",
+          "list2": "Kinematik ovoz muhitlarini yaratish",
+          "list3": "Ovozni video bilan sinxronlashtirish"
+        }
+      },
+      "creativeEffect": {
+        "title": "Kreativ Effektlar",
+        "infolist": {
+          "list1": "Glitch effektlari",
+          "list2": "Light leak va lens flare effektlari",
+          "list3": "3D matn animatsiyasi",
+          "list4": "Double exposure effektlari",
+          "list5": "VHS yoki retro film uslubi",
+          "list6": "AI yordamidagi matndan videoga o'tish effektlari"
+        }
+      },
+      "socialMediaAndShortForm": {
+        "title": "Ijtimoiy tarmoqlar va qisqa videolar montaji",
+        "infolist": {
+          "list1": "Instagram Reels, TikTok va YouTube Shorts uchun vertikal videolarni optimallashtirish",
+          "list2": "Avtomatik sinxronlashtirilgan subtitrlar",
+          "list3": "Yuqori energiyali montaj va musiqa bilan ritm sinxronizatsiyasi",
+          "list4": "Meme uslubidagi montaj",
+          "list5": "Ko‘proq jalb qilish uchun loop videolar",
+          "list6": "Sizning yo‘nalishingizga mos professional montaj"
+        }
+      },
+      "aiAndAutomation": {
+        "title": "AI va avtomatlashtirilgan montaj",
+        "infolist": {
+          "list1": "AI yordamida avtomatik kesish va qisqartirish",
+          "list2": "Nutqdan matnga avtomatik subtitr yaratish",
+          "list3": "AI yordamida fonni olib tashlash",
+          "list4": "AI asosidagi obyektlarni kuzatish va almashtirish"
+        }
+      },
+      "freelanceAndCommercial": {
+        "title": "Frilanser va tijoriy montaj",
+        "infolist": {
+          "list1": "To‘y videolarini montaj qilish",
+          "list2": "Korporativ videolar va reklamalar",
+          "list3": "Influencerlar uchun YouTube videolari montaji",
+          "list4": "Podcast videolarini tayyorlash",
+          "list5": "Hujjatli film uslubidagi montaj",
+          "list6": "Ko‘chmas mulk va sayohat videolari"
+        }
+      }
+    }
+  }
+}

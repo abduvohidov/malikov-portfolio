@@ -7,7 +7,7 @@ export interface PriceListDataType {
   revisions: string;
   price: {
     from: number;
-    to: number;
+    to?: number;
   };
 }
 
@@ -29,8 +29,7 @@ export const priceListData = (
         t("prices.basic.infolist.list5"),
       ],
       price: {
-        from: 15,
-        to: 10,
+        from: 30,
       },
     },
     {
@@ -50,8 +49,7 @@ export const priceListData = (
         t("prices.intermediate.infolist.list8"),
       ],
       price: {
-        from: 40,
-        to: 30,
+        from: 50,
       },
     },
     {
@@ -69,8 +67,7 @@ export const priceListData = (
         t("prices.advanced.infolist.list6"),
       ],
       price: {
-        from: 60,
-        to: 50,
+        from: 70,
       },
     },
     {

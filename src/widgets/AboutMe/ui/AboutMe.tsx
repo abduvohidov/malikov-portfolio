@@ -37,7 +37,7 @@ export const AboutMe: FC<AboutMeProps> = ({ className }) => {
         </div>
 
         <Link
-          href={"https://t.me/malikovabduaziz"}
+          href={"https://t.me/azkavisuals"}
           className="block sm:hidden mt-4"
         >
           <Button className="w-full text-blue-400 hover:bg-blue-400 hover:text-white">
@@ -49,7 +49,7 @@ export const AboutMe: FC<AboutMeProps> = ({ className }) => {
         <Separator className="my-4" />
         <div className="flex h-5 items-center space-x-4 text-sm">
           <Link
-            href={"https://t.me/malikovabduaziz"}
+            href={"https://t.me/azkavisuals"}
             className="hidden sm:block"
           >
             <Button className="w-full text-blue-400 hover:bg-blue-400 hover:text-white">
@@ -58,13 +58,13 @@ export const AboutMe: FC<AboutMeProps> = ({ className }) => {
             </Button>
           </Link>
           <Separator orientation="vertical" className="hidden sm:block" />
-          <Link href={"https://www.youtube.com/@mlkvazka1"} target="_blank">
+          <Link href={"https://youtube.com/@mlkvazka1?si=AUUPTxd0gBqlqUzG"} target="_blank">
             <Text variant="body-1" className="text-gray-400 hover:text-white">
               Youtube
             </Text>
           </Link>
           <Separator orientation="vertical" />
-          <Link href={"https://www.instagram.com/azka.aedits?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="} target="_blank">
+          <Link href={"https://www.instagram.com/azka.visualz?igsh=MndxdDUzc3llY21s&utm_source=qr"} target="_blank">
             <Text variant="body-1" className="text-gray-400 hover:text-white">
               Instagram
             </Text>
